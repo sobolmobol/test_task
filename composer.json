@@ -1,0 +1,17 @@
+{
+    "name": "test_task",
+    "autoload": {
+        "psr-4": {
+            "Sobolmobol\\TestTask\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "sobolmobol",
+            "email": "vicasob9@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^5.3"
+    }
+}
