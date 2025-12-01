@@ -31,7 +31,7 @@ if (!is_dir($resultDir)) {
     mkdir($resultDir, 0777, true);
 }
 
-$fileName = $resultDir . '/random_numbers.xlsx';
+$fileName = realpath($resultDir . '/random_numbers.xlsx');
 
 try {
     $writer = new Xlsx($spreadsheet);
